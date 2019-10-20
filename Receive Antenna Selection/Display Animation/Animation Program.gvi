@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="26A2E57200DA21F3A5ECB0BD0D46919B" Timestamp="1D4E6255BA13FA6" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="5.3.3.49750" FeatureSetName="LabVIEW控件" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="5.3.3.49750" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="5.2.0.9" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.3.3.49750" FeatureSetName="通用语言组件" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.3.3.49750" FeatureSetName="编辑器" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="5.2.0.1" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.3.3.49750" FeatureSetName="编辑器" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
+		<ApplicationVersionInfo Build="5.3.3.49750" Name="LabVIEW NXG" Version="2.1.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="1" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="2" ListViewIconCrop="0 0 70 70" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]70" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]70">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]70" Id="4" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]70">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="5" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="6" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Path Data="[PathGeometry]M 66,3.39999986 L 7.33333349,3.39999986 C 5.30749989,3.39999986 3.66666675,4.92149973 3.66666675,6.79999971 L 3.66666675,20.3999996 L 69.6666718,20.3999996 L 69.6666718,6.79999971 C 69.6666718,4.92149973 68.0258408,3.39999986 66,3.39999986 Z M 25.0690002,17 L 22.3336697,17 L 22.3336697,10.3785 L 20.357336,14.6743994 L 18.4598351,14.6743994 L 16.4816666,10.3785 L 16.4816666,17 L 13.8893318,17 L 13.8893318,7.11279964 L 17.0830021,7.11279964 L 19.4828339,12.0734005 L 21.8753357,7.11279964 L 25.0690002,7.11279964 L 25.0690002,17 Z M 33.5555,8.8654995 L 31.8083363,8.8654995 L 31.8083363,15.2472992 L 33.5555,15.2472992 L 33.5555,17 L 27.3111706,17 L 27.3111706,15.2472992 L 29.0583363,15.2472992 L 29.0583363,8.8654995 L 27.3111706,8.8654995 L 27.3111706,7.11279964 L 33.5555,7.11279964 L 33.5555,8.8654995 Z M 46.975502,17 L 44.2401695,17 L 44.2401695,10.3785 L 42.2638321,14.6743994 L 40.3663406,14.6743994 L 38.3900032,10.3785 L 38.3900032,17 L 35.7976646,17 L 35.7976646,7.11279964 L 38.991333,7.11279964 L 41.3911705,12.0734005 L 43.7836685,7.11279964 L 46.9773331,7.11279964 L 46.9773331,17 Z M 58.6061668,15.8151007 C 57.6326675,16.7416 56.2851677,17.2057018 54.567337,17.2057018 C 52.8531685,17.2057018 51.5093384,16.7416 50.5358467,15.8151007 C 49.562336,14.8885994 49.0746727,13.6356993 49.0746727,12.0597992 C 49.0746727,10.4702997 49.562336,9.2140007 50.5358467,8.29089928 C 51.5093384,7.36780024 52.8550072,6.9071002 54.567337,6.9071002 C 56.2778358,6.9071002 57.6198273,7.36780024 58.5988426,8.29089928 C 59.5778389,9.2140007 60.0673409,10.4702997 60.0673409,12.0597992 C 60.0673409,13.6356993 59.5796776,14.8868999 58.6061668,15.8151007 Z M 56.9873352,10.5383005 C 57.1358376,10.9547987 57.2091637,11.4597006 57.2091637,12.0529995 C 57.2091637,12.6072006 57.1450043,13.0882988 57.016674,13.4979992 C 56.88834,13.9076996 56.6884995,14.2630005 56.4226608,14.5639 C 56.1843376,14.8290987 55.9056664,15.0246 55.5848427,15.1520996 C 55.2640038,15.2796001 54.9285049,15.3408003 54.5746689,15.3408003 C 54.2208366,15.3408003 53.8853378,15.2779007 53.5645065,15.1554995 C 53.2436676,15.0331001 52.9650002,14.8393002 52.7266655,14.5774994 C 52.4883347,14.3156986 52.2958374,13.9790993 52.1510048,13.5642996 C 52.0061798,13.1494999 51.9328346,12.6479998 51.9328346,12.0597992 C 51.9328346,11.4851999 52.008007,10.9785995 52.1583366,10.5417004 C 52.3086739,10.1047993 52.5030022,9.76310062 52.7413483,9.51490021 C 52.999836,9.24970055 53.2821693,9.05929947 53.5901756,8.94369984 C 53.8981743,8.82809925 54.2263412,8.77029991 54.5746689,8.77029991 C 54.9193382,8.77029991 55.2493401,8.82979965 55.5665092,8.94879913 C 55.8836746,9.06779957 56.1641769,9.26160049 56.4080009,9.52680016 C 56.6445084,9.78520012 56.8388367,10.1234999 56.9873352,10.5383005 Z" Fill="[SMSolidColorBrush]#ff1d9e9e" Height="[float]17" Id="98" Left="[float]-2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]-2" Width="[float]66" />
+				<Text Height="[float]48" Id="99" Left="[float]6" SizeMode="[TextModelSizeMode]Fixed" Text="[string]&#xD;&#xA;Animation&#xD;&#xA;PROGRAM" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]16" Width="[float]59">
+					<FontSetting FontSize="8" Id="100" />
+				</Text>
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="70" Id="9" ListViewHeight="205" ListViewWidth="150" Width="70" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal ListViewHotspot="0 35" Parameter="101" />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" ListViewHotspot="150 170" Parameter="23" />
+			<ConnectorPaneTerminal Hotspot="25 0" ListViewHotspot="150 185" Parameter="29" />
+			<ConnectorPaneTerminal Hotspot="70 5" ListViewHotspot="150 50" Parameter="109" />
+			<ConnectorPaneTerminal Hotspot="70 15" ListViewHotspot="150 65" Parameter="116" />
+			<ConnectorPaneTerminal Hotspot="70 25" ListViewHotspot="150 80" Parameter="121" />
+			<ConnectorPaneTerminal Hotspot="70 35" ListViewHotspot="150 95" Parameter="126" />
+			<ConnectorPaneTerminal Hotspot="15 70" />
+			<ConnectorPaneTerminal Hotspot="25 70" />
+			<ConnectorPaneTerminal Hotspot="35 0" />
+			<ConnectorPaneTerminal Hotspot="35 70" />
+			<ConnectorPaneTerminal Hotspot="70 45" ListViewHotspot="150 110" Parameter="130" />
+			<ConnectorPaneTerminal Hotspot="0 45" />
+			<ConnectorPaneTerminal Hotspot="70 55" ListViewHotspot="150 125" Parameter="134" />
+			<ConnectorPaneTerminal Hotspot="0 55" />
+			<ConnectorPaneTerminal Hotspot="70 65" ListViewHotspot="150 140" Parameter="138" />
+			<ConnectorPaneTerminal Hotspot="0 65" />
+			<ConnectorPaneTerminal Hotspot="45 0" />
+			<ConnectorPaneTerminal Hotspot="45 70" />
+			<ConnectorPaneTerminal Hotspot="55 0" />
+			<ConnectorPaneTerminal Hotspot="55 70" ListViewHotspot="150 155" Parameter="142" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0">
+			<LED BaseName="[string]方形指示灯" FalseContent="[string]Off" Height="[float]24" Id="24" IsReadOnly="[bool]True" Left="[float]0" MinHeight="[float]16" MinWidth="[float]16" Name="[string]UE Antenna Enable" Shape="[LEDShape]Square" TabIndex="[int]0" Top="[float]0" TrueContent="[string]On" Value="{DataItemBinding Id=23}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<StringControl AcceptsReturn="[bool]True" BaseName="[string]字符串" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="30" IsReadOnly="[bool]True" Left="[float]0" MinHeight="[float]24" Name="[string]MS Name" TabIndex="[int]1" Text="{DataItemBinding Id=29}" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<ArrayViewer ArrayElement="[UIModel]104" BaseName="[string]Array" Columns="[int]4" Dimensions="[int]1" ElementType="[Type]Boolean" FixedSize="[ArrayElementIndex]8" Height="[float]72" HorizontalScrollBarVisibility="[ScrollBarVisibility]Visible" Id="103" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Left="[float]0" Name="[string]Antenna enable index" Orientation="[SMOrientation]Horizontal" Rows="[int]1" TabIndex="[int]2" Top="[float]0" Value="{DataItemBinding Id=101}" Width="[float]168" xmlns="http://www.ni.com/PanelCommon">
+				<p.DefaultElementValue>False</p.DefaultElementValue>
+				<Switch FalseContent="[string]Off" Height="[float]40" Id="104" Label="[UIModel]105" MinHeight="[float]36" MinWidth="[float]34" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" TrueContent="[string]On" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+					<Label Id="105" IsVisualChild="[bool]False" LabelOwner="[UIModel]104" Left="[float]0" Text="[string]Switch" Top="[float]-20" xmlns="http://www.ni.com/PanelCommon" />
+				</Switch>
+			</ArrayViewer>
+			<Switch BaseName="[string]Switch" FalseContent="[string]Off" Height="[float]72" Id="111" IsReadOnly="[bool]True" Left="[float]0" MinHeight="[float]36" MinWidth="[float]34" Name="[string]BS Antenna Enable 0" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" TabIndex="[int]3" Top="[float]0" TrueContent="[string]On" Value="{DataItemBinding Id=109}" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Switch BaseName="[string]Switch" FalseContent="[string]Off" Height="[float]72" Id="117" IsReadOnly="[bool]True" Left="[float]0" MinHeight="[float]36" MinWidth="[float]34" Name="[string]BS Antenna Enable 1" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" TabIndex="[int]4" Top="[float]0" TrueContent="[string]On" Value="{DataItemBinding Id=116}" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Switch BaseName="[string]Switch" FalseContent="[string]Off" Height="[float]72" Id="122" IsReadOnly="[bool]True" Left="[float]0" MinHeight="[float]36" MinWidth="[float]34" Name="[string]BS Antenna Enable 2" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" TabIndex="[int]5" Top="[float]0" TrueContent="[string]On" Value="{DataItemBinding Id=121}" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Switch BaseName="[string]Switch" FalseContent="[string]Off" Height="[float]72" Id="127" IsReadOnly="[bool]True" Left="[float]0" MinHeight="[float]36" MinWidth="[float]34" Name="[string]BS Antenna Enable 3" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" TabIndex="[int]6" Top="[float]0" TrueContent="[string]On" Value="{DataItemBinding Id=126}" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Switch BaseName="[string]Switch" FalseContent="[string]Off" Height="[float]72" Id="131" IsReadOnly="[bool]True" Left="[float]0" MinHeight="[float]36" MinWidth="[float]34" Name="[string]BS Antenna Enable 4" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" TabIndex="[int]7" Top="[float]0" TrueContent="[string]On" Value="{DataItemBinding Id=130}" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Switch BaseName="[string]Switch" FalseContent="[string]Off" Height="[float]72" Id="135" IsReadOnly="[bool]True" Left="[float]0" MinHeight="[float]36" MinWidth="[float]34" Name="[string]BS Antenna Enable 5" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" TabIndex="[int]8" Top="[float]0" TrueContent="[string]On" Value="{DataItemBinding Id=134}" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Switch BaseName="[string]Switch" FalseContent="[string]Off" Height="[float]72" Id="139" IsReadOnly="[bool]True" Left="[float]0" MinHeight="[float]36" MinWidth="[float]34" Name="[string]BS Antenna Enable 6" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" TabIndex="[int]9" Top="[float]0" TrueContent="[string]On" Value="{DataItemBinding Id=138}" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Switch BaseName="[string]Switch" FalseContent="[string]Off" Height="[float]72" Id="143" IsReadOnly="[bool]True" Left="[float]0" MinHeight="[float]36" MinWidth="[float]34" Name="[string]BS Antenna Enable 7" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" TabIndex="[int]10" Top="[float]0" TrueContent="[string]On" Value="{DataItemBinding Id=142}" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+		</FrontPanelUnplacedItems>
+		<BlockDiagram Id="12">
+			<Literal Bounds="355 400 25 15" DataType="Boolean" Id="19" Label="20" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>True</p.Data>
+				<BooleanBehavior />
+			</Literal>
+			<NodeLabel AttachedTo="19" Bounds="249 400 101 15" Id="20" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>UE Antenna Enable</p.Text>
+			</NodeLabel>
+			<Literal Bounds="275 440 40 31" DataType="String" Id="21" Label="22" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>"\nUE"</p.Data>
+				<StringBehavior TextDisplayMode="Default" />
+			</Literal>
+			<NodeLabel AttachedTo="21" Bounds="275 422 52 15" Id="22" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>MS Name</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="400 400 40 15" DataItem="23" Id="26" Label="27" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="26" Bounds="445 400 101 15" Id="27" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>UE Antenna Enable</p.Text>
+			</NodeLabel>
+			<Wire Id="28" Joints="N(19:Out)|(380,405) N(26:Value)|(403,405)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="345 440 40 15" DataItem="29" Id="32" Label="33" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="32" Bounds="390 440 52 15" Id="33" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>MS Name</p.Text>
+			</NodeLabel>
+			<Wire Id="34" Joints="N(21:Out)|(315,445) N(32:Value)|(348,445)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="275 535 40 15" DataItem="101" Id="102" Label="106" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Boolean[]" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="102" Bounds="155 535 115 15" Id="106" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Antenna enable index</p.Text>
+			</NodeLabel>
+			<ArrayIndex Bounds="335 535 40 100" Id="107" Terminals="array=108, c0t0v, c0out=113, c1t0v, c1out=118, c2t0v, c2out=123, c3t0v, c3out=144, c4t0v, c4out=145, c5t0v, c5out=146, c6t0v, c6out=147, c7t0v, c7out=148" VerticalChunkCount="8" />
+			<Wire Id="108" Joints="N(102:Value)|(315,540) N(107:array)|(335,540)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="415 525 40 15" DataItem="109" Id="110" Label="112" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="110" Bounds="460 525 110 15" Id="112" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>BS Antenna Enable 0</p.Text>
+			</NodeLabel>
+			<Wire Id="113" Joints="N(107:c0out)|(375,560) h(10) v(-30) N(110:Value)|(418,530)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="415 545 40 15" DataItem="116" Id="114" Label="115" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="114" Bounds="460 545 110 15" Id="115" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>BS Antenna Enable 1</p.Text>
+			</NodeLabel>
+			<Wire Id="118" Joints="N(107:c1out)|(375,570) h(20) v(-20) N(114:Value)|(418,550)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="415 565 40 15" DataItem="121" Id="119" Label="120" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="119" Bounds="460 565 110 15" Id="120" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>BS Antenna Enable 2</p.Text>
+			</NodeLabel>
+			<Wire Id="123" Joints="N(107:c2out)|(375,580) h(20) v(-10) N(119:Value)|(418,570)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="415 585 40 15" DataItem="126" Id="124" Label="125" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="124" Bounds="460 585 110 15" Id="125" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>BS Antenna Enable 3</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="415 605 40 15" DataItem="130" Id="128" Label="129" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="128" Bounds="460 605 110 15" Id="129" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>BS Antenna Enable 4</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="415 625 40 15" DataItem="134" Id="132" Label="133" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="132" Bounds="460 625 110 15" Id="133" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>BS Antenna Enable 5</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="415 645 40 15" DataItem="138" Id="136" Label="137" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="136" Bounds="460 645 110 15" Id="137" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>BS Antenna Enable 6</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="415 665 40 15" DataItem="142" Id="140" Label="141" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="140" Bounds="460 665 110 15" Id="141" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>BS Antenna Enable 7</p.Text>
+			</NodeLabel>
+			<Wire Id="144" Joints="N(107:c3out)|(375,590) N(124:Value)|(418,590)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="145" Joints="N(107:c4out)|(375,600) h(30) v(10) N(128:Value)|(418,610)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="146" Joints="N(107:c5out)|(375,610) h(30) v(20) N(132:Value)|(418,630)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="147" Joints="N(107:c6out)|(375,620) h(20) v(30) N(136:Value)|(418,650)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="148" Joints="N(107:c7out)|(375,630) h(10) v(40) N(140:Value)|(418,670)" xmlns="http://www.ni.com/PlatformFramework" />
+		</BlockDiagram>
+		<NativeFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000">
+			<PanelExecutionWindow Id="14" />
+		</NativeFrontPanel>
+		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="6" DataType="Boolean" Id="23" Name="UE Antenna Enable" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>True</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="7" DataType="String" Id="29" Name="MS Name" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>"\nUE"</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="0" DataType="Boolean[]" Id="101" Name="Antenna enable index" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Array Lengths="8" IsBinary="True" Compression="GZip">
+					<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMDhBmxI64AYECs4UzAAAA</BinaryElements>
+				</Array>
+			</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="8" DataType="Boolean" Id="109" Name="BS Antenna Enable 0" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="9" DataType="Boolean" Id="116" Name="BS Antenna Enable 1" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="10" DataType="Boolean" Id="121" Name="BS Antenna Enable 2" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="11" DataType="Boolean" Id="126" Name="BS Antenna Enable 3" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="12" DataType="Boolean" Id="130" Name="BS Antenna Enable 4" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="13" DataType="Boolean" Id="134" Name="BS Antenna Enable 5" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="14" DataType="Boolean" Id="138" Name="BS Antenna Enable 6" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="15" DataType="Boolean" Id="142" Name="BS Antenna Enable 7" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+</SourceFile>

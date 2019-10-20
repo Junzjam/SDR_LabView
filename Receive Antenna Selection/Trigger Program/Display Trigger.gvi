@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="F5A54A5EF2CCE31AA43220BC86CF61D7" Timestamp="1D4E5FE87184BB2" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="5.3.3.49750" FeatureSetName="LabVIEW控件" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="5.3.3.49750" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="5.2.0.9" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.3.3.49750" FeatureSetName="通用语言组件" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.3.3.49750" FeatureSetName="编辑器" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="5.2.0.1" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.3.3.49750" FeatureSetName="编辑器" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
+		<ApplicationVersionInfo Build="5.3.3.49750" Name="LabVIEW NXG" Version="2.1.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="1" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="2" ListViewIconCrop="0 0 30 30" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]30" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]30">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]30" Id="4" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]30">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="5" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="6" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Path Data="[PathGeometry]M 7,0 C 3.1340909,0 0,3.13345456 0,7 C 0,10.8659096 3.1340909,14 7,14 C 10.8665457,14 14,10.8659096 14,7 C 14,3.13345456 10.8665457,0 7,0 M 7.57590866,5.87045479 C 7.76363611,5.68272734 9.00136375,4.44245481 9.13054466,4.31263638 C 9.27054501,4.17263651 9.74145412,4.05745459 9.97054577,4.05745459 C 9.97054577,4.21081829 9.86872768,4.66963673 9.74145412,4.84845448 C 9.6256361,5.01136351 8.38536358,6.2579999 8.16963673,6.4743638 C 8.24663639,6.63918161 8.29054546,6.82309103 8.29054546,7.01718187 C 8.29054546,7.21063662 8.24663639,7.39454556 8.16963673,7.55936384 L 10.3529997,9.74654579 C 10.3529997,9.74654579 10.8875446,10.3078184 10.811182,10.818182 C 10.4548187,10.818182 10.0978184,10.7157278 9.588727,10.2053642 C 9.13309097,9.74909115 7.84190893,8.43500042 7.57527256,8.16327286 C 7.40663624,8.24600029 7.21763611,8.29245472 7.01718187,8.29245472 C 6.31399965,8.29245472 5.74445486,7.7216363 5.74445486,7.01718187 C 5.74445486,6.31209087 6.31399965,5.74127293 7.01718187,5.74127293 C 7.21763611,5.74127293 7.40727282,5.78772736 7.57590866,5.87045479" EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#b2000000" Height="[float]14" Id="34" Left="[float]8" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]12" Width="[float]14" />
+				<Path Data="[PathGeometry]M 29.0000019,1.80000007 L 3.22222257,1.80000007 C 2.33208346,1.80000007 1.61111128,2.60549998 1.61111128,3.60000014 L 1.61111128,10.8000002 L 30.6111107,10.8000002 L 30.6111107,3.60000014 C 30.6111107,2.60549998 29.8901386,1.80000007 29.0000019,1.80000007 Z M 11.0151672,9 L 9.81327915,9 L 9.81327915,5.49450016 L 8.94488907,7.76880026 L 8.1111393,7.76880026 L 7.24194479,5.49450016 L 7.24194479,9 L 6.10288954,9 L 6.10288954,3.7656002 L 7.50616789,3.7656002 L 8.56063938,6.39179993 L 9.61188984,3.7656002 L 11.0151672,3.7656002 L 11.0151672,9 Z M 14.7440834,4.69350052 L 13.976388,4.69350052 L 13.976388,8.07209969 L 14.7440834,8.07209969 L 14.7440834,9 L 12.0003614,9 L 12.0003614,8.07209969 L 12.7680569,8.07209969 L 12.7680569,4.69350052 L 12.0003614,4.69350052 L 12.0003614,3.7656002 L 14.7440834,3.7656002 L 14.7440834,4.69350052 Z M 20.6407509,9 L 19.4388618,9 L 19.4388618,5.49450016 L 18.5704708,7.76880026 L 17.7367229,7.76880026 L 16.8683338,5.49450016 L 16.8683338,9 L 15.7292776,9 L 15.7292776,3.7656002 L 17.1325569,3.7656002 L 18.1870289,6.39179993 L 19.2382793,3.7656002 L 20.6415558,3.7656002 L 20.6415558,9 Z M 25.7511921,8.37270069 C 25.3234463,8.86320019 24.7313633,9.10890102 23.9765549,9.10890102 C 23.2233639,9.10890102 22.6328888,8.86320019 22.2051392,8.37270069 C 21.7773895,7.88220072 21.5631123,7.2189002 21.5631123,6.38460016 C 21.5631123,5.54309988 21.7773895,4.87799978 22.2051392,4.38929987 C 22.6328888,3.90059996 23.2241688,3.65670037 23.9765549,3.65670037 C 24.7281399,3.65670037 25.3178082,3.90059996 25.7479744,4.38929987 C 26.1781406,4.87799978 26.3932228,5.54309988 26.3932228,6.38460016 C 26.3932228,7.2189002 26.1789474,7.88129997 25.7511921,8.37270069 Z M 25.0398884,5.57909966 C 25.1051407,5.79960012 25.1373615,6.06690025 25.1373615,6.38100052 C 25.1373615,6.67439985 25.109169,6.92910004 25.0527802,7.14600039 C 24.9963894,7.36289978 24.9085827,7.5510006 24.7917805,7.71030045 C 24.6870575,7.8506999 24.5646114,7.95420027 24.4236412,8.02169991 C 24.2826691,8.08920002 24.1352539,8.12160015 23.9797783,8.12160015 C 23.8243065,8.12160015 23.6768913,8.0883007 23.5359173,8.02350044 C 23.3949471,7.95870066 23.272501,7.85610008 23.167778,7.71750021 C 23.0630531,7.57889986 22.9784718,7.40069962 22.9148331,7.18110037 C 22.8511963,6.96150017 22.8189735,6.6960001 22.8189735,6.38460016 C 22.8189735,6.08039999 22.8519993,5.81220055 22.9180565,5.58090019 C 22.9841118,5.34959984 23.0695019,5.16869974 23.1742229,5.03730011 C 23.2878075,4.8968997 23.4118595,4.79610014 23.5471973,4.73490047 C 23.6825314,4.67369986 23.8267231,4.64310026 23.9797783,4.64310026 C 24.1312237,4.64310026 24.2762241,4.67460012 24.4155846,4.73760033 C 24.554945,4.80060005 24.678196,4.90319967 24.7853336,5.04360008 C 24.8892536,5.18040037 24.9746418,5.35949993 25.0398884,5.57909966 Z" Fill="[SMSolidColorBrush]#ff1d9e9e" Height="[float]9" Id="36" Left="[float]-1" MinHeight="[float]1" MinWidth="[float]1" Top="[float]-1" Width="[float]29" />
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="30" Id="9" ListViewHeight="85" ListViewWidth="150" Width="30" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal ListViewHotspot="0 35" Parameter="15" />
+			<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 50" Parameter="19" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="30 5" />
+			<ConnectorPaneTerminal Hotspot="30 15" ListViewHotspot="150 65" Parameter="28" />
+			<ConnectorPaneTerminal Hotspot="30 25" />
+			<ConnectorPaneTerminal Hotspot="15 30" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0">
+			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="17" Interval="[uint]1" Left="[float]0" MinHeight="[float]24" Name="[string]Loop time" TabIndex="[int]0" Top="[float]0" Value="{DataItemBinding Id=15}" ValueFormatter="[string]LV:0" ValueType="[Type]UInt32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="21" Interval="[uint]1" Left="[float]0" MinHeight="[float]24" Name="[string]Trigger interval" TabIndex="[int]1" Top="[float]0" Value="{DataItemBinding Id=19}" ValueFormatter="[string]LV:0" ValueType="[Type]UInt32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<LED BaseName="[string]方形指示灯" FalseContent="[string]Off" Height="[float]24" Id="29" IsReadOnly="[bool]True" Left="[float]0" MinHeight="[float]16" MinWidth="[float]16" Name="[string]Trigger" Shape="[LEDShape]Square" TabIndex="[int]2" Top="[float]0" TrueContent="[string]On" Value="{DataItemBinding Id=28}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+		</FrontPanelUnplacedItems>
+		<BlockDiagram Id="12">
+			<DataAccessor Bounds="265 310 40 15" DataItem="15" Id="16" Label="18" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="UInt32" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="16" Bounds="206 310 54 15" Id="18" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Loop time</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="265 325 40 15" DataItem="19" Id="20" Label="22" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="UInt32" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="20" Bounds="179 325 81 15" Id="22" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Trigger interval</p.Text>
+			</NodeLabel>
+			<QuotientAndRemainder Bounds="325 310 30 30" Id="23" />
+			<Wire Id="24" Joints="N(20:Value)|(305,330) N(23:y)|(325,330)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="25" Joints="N(16:Value)|(305,315) N(23:x)|(325,315)" xmlns="http://www.ni.com/PlatformFramework" />
+			<IsEqualTo0 Bounds="375 300 30 30" Id="26" />
+			<Wire Id="27" Joints="N(23:x-y*floor(x/y\))|(355,315) N(26:x)|(375,315)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="425 310 40 15" DataItem="28" Id="31" Label="32" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="31" Bounds="470 310 38 15" Id="32" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Trigger</p.Text>
+			</NodeLabel>
+			<Wire Id="33" Joints="N(26:x = 0?)|(405,315) N(31:Value)|(428,315)" xmlns="http://www.ni.com/PlatformFramework" />
+		</BlockDiagram>
+		<NativeFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000">
+			<PanelExecutionWindow Id="14" />
+		</NativeFrontPanel>
+		<DataItem CallDirection="Input" CallIndex="0" DataType="UInt32" Id="15" Name="Loop time" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+		<DataItem CallDirection="Input" CallIndex="1" DataType="UInt32" Id="19" Name="Trigger interval" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="0" DataType="Boolean" Id="28" Name="Trigger" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+</SourceFile>
